@@ -1,5 +1,8 @@
 # Corkscrews
 
+[![CI](https://github.com/ydah/corkscrew/actions/workflows/ci.yml/badge.svg)](https://github.com/ydah/corkscrew/actions/workflows/ci.yml)
+[![Gem Version](https://img.shields.io/gem/v/corkscrews.svg)](https://rubygems.org/gems/corkscrews)
+
 Corkscrews is a Ruby causal-profiling toolkit for bottleneck experiments. It
 records progress points, line samples, latency spans, Ruby-level wait targets,
 and validation benchmark results, then reports virtual speedup curves for likely
